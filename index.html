@@ -14,8 +14,11 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Modern Business Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
+	
+	<!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -91,42 +94,44 @@
             <div class="col-md-6">
                 <p>A family run business, JJ & JP McDonagh Plastering offer expert plastering services to domestic and commercial customers:</p>	
 				<ul>
-                    <li>Professional and reliable</li>
-                    <li>All work fully guaranteed</li>
-                    <li>Quality workmanship and cleanliness</li>
-                    <li>Competitive pricing</li>
-                    <li>Free, no obligation quote</li>
-                    <li>Trustworthy, local, well-known</li>
+                    <li>We are professional and reliable</li>
+                    <li>All our work is fully guaranteed</li>
+                    <li>We offer Quality workmanship coupled with cleanliness</li>
+                    <li>Our pricing is competitive</li>
+                    <li>We offer free, no obligation quotes</li>
+                    <li>We are trustworthy, local and well-known</li>
                 </ul>
-                <p>With 35 years' experience in the trade you can be sure of a quality job. We pride ourselves on being reliable, producing a high standard finish.</p>
+                <p>With over 35 years' experience in the trade you can be sure of a job that has a high standard finish.</p>
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="images/873176-photo1.jpg" alt="">
             </div>
         </div>
         <!-- /.row -->
+		
+		<hr>
 	
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Project Portfolio</h2>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <a href="portfolio-item-1.html">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <a href="portfolio-item-2.html">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <a href="portfolio-item-3.html">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <a href="portfolio-item-4.html">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
@@ -136,21 +141,17 @@
 
         <hr>
 		
-		<!-- Start Quotes - Quotes Carousel-->
+		<!-- Start Quotes Carousel-->
 
-<section id="carousel">    				
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
-				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+<div id="carousel" class="carousel slide" data-ride="carousel">
+				  
 				  <!-- Carousel indicators -->
-                  <ol class="carousel-indicators">
-				    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
-				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-				    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
-				  </ol>
-								  			  
+				  <ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				  </ol>		  
+							  			  
 		  <!-- Carousel items -->
 		  <div class="carousel-inner">
 			<div class="active item">
@@ -175,12 +176,14 @@
 				</blockquote>
 				<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
 				</div>
-				  </div>
-				</div>
-			</div>							
-		</div>
-	</div>
-</section>
+		  </div>
+
+	  <!-- Controls -->
+		<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span> </a>
+		<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span> </a>
+</div>
 
 
 		<!-- /.row -->
@@ -218,6 +221,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+	
+	<!-- Carousel JavaScript -->
+    <script src="js/carouselheight.js"></script>
 	
 </body>
 
