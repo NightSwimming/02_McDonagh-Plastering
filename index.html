@@ -80,53 +80,13 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="images/873176-photo1.jpg"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-
     <!-- Page Content -->
     <div class="container">
 
 	    <!-- Features Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Why JJ & JP McDonagh Plastering Services?</h2>
+                <h2 class="page-header">Why JJ & JP McDonagh Plastering?</h2>
             </div>
             <div class="col-md-6">
                 <p>A family run business, JJ & JP McDonagh Plastering offer expert plastering services to domestic and commercial customers:</p>	
@@ -175,6 +135,57 @@
         <!-- /.row -->
 
         <hr>
+		
+		<!-- Start Quotes - Quotes Carousel-->
+
+<section id="carousel">    				
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+				  </ol>
+								  			  
+		  <!-- Carousel items -->
+		  <div class="carousel-inner">
+			<div class="active item">
+				<blockquote>
+					<p>John and his team completely skimmed our kitchen ready for refit, with minimum fuss, 
+					including ceiling. We were so pleased with the results we brought them back to do all our hall, 
+					landing and stairwell in readiness for the new custom stairs. 
+					Pleasant professional guys to deal with - we wouldnt hesitate to recommend them to anyone.  <cite>- B & J Jackson Heswall, Wirral</cite></p>
+				</blockquote>
+				<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+			</div>
+			<div class="item">
+				<blockquote>
+					<p>John's plastering is superb. He was extremely reliable, reasonably priced and barely stopped until 
+					the work was done and everything was tidy and clear.<cite>- Emma - Cheshire</cite></p>
+				</blockquote>
+				<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+			</div>
+			<div class="item">
+				<blockquote>
+					<p>John has done a brilliant job in my daughters nursery, work finished to a high standard at short notice. Absolutely lovely fella.<cite>- Stuart - Cheshire</p>
+				</blockquote>
+				<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+				</div>
+				  </div>
+				</div>
+			</div>							
+		</div>
+	</div>
+</section>
+
+
+		<!-- /.row -->
+		
+        <hr>
 
         <!-- Call to Action Section -->
         <div class="well">
@@ -189,7 +200,7 @@
         </div>
 
         <hr>
-
+			
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -201,20 +212,13 @@
 
     </div>
     <!-- /.container -->
-
-    <!-- jQuery -->
+	
+	<!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
+	
 </body>
 
 </html>
